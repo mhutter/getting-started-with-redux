@@ -1,0 +1,24 @@
+{
+  "name": "getting-started-with-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Manuel Hutter <manuel@hutter.io>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.39",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.39",
+    "@babel/preset-env": "^7.0.0-beta.39",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^3.10.0"
+  }
+}
